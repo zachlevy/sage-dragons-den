@@ -1,0 +1,583 @@
+/*!
+ * Start Bootstrap - Stylish Portfolio Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* START FONTS */
+@font-face {
+  font-family: 'SageProximaLight';
+  src: url('../fonts/ProximaNova-Light.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/ProximaNova-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/ProximaNova-Light.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/ProximaNova-Light.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'SageProximaBold';
+  src: url('../fonts/ProximaNova-Bold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/ProximaNova-Bold.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/ProximaNova-Bold.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+body {
+    font-family: 'SageProximaLight', ProximaNova-Light, sans-serif;
+}
+/* END FONTS */
+
+/* START HEADER */
+.sage-header,
+.crazy-beard-header {
+    padding-top: 2em;
+    font-family: 'SageProxima', ProximaNovaCond-Semibold, sans-serif;
+    letter-spacing: 3px;
+}
+.sage-header {
+    color: #000;
+    text-shadow: 1px 2px 0px rgba(255,255,255,0.5);
+    text-align: right;
+}
+.sage-header hr {
+    border: 1px solid #000;
+}
+.sage-header h1 {
+    font-size: 3em;
+}
+.crazy-beard-header {
+    text-shadow: 1px 2px 0px rgba(0,0,0,0.5);
+    color: #fff;
+    text-align: left;
+}
+.crazy-beard-header h1 {
+    font-size: 3em;
+}
+.crazy-beard-header p {
+    
+}
+/* END HEADER */
+
+/* START FOOTER */
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  padding-bottom: 57px;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 57px;
+  background-color: #fff;
+  font-family: 'SageProximaBold', ProximaNova-Bold, sans-serif;
+  color: #555;
+  text-transform: uppercase;
+}
+
+.footer-menu {
+    margin-left: 2em;
+    margin-top: 1.6em;
+    font-size: 0.9em;
+    letter-spacing: 2px;
+}
+.footer-menu a {
+    color: #555;
+}
+.footer-menu a:hover {
+    color: #222;
+    text-decoration: none;
+}
+.footer-padding {
+    height: 57px;
+}
+footer .social-menu .fb-like {
+    vertical-align: middle;
+    margin-top: -50px;
+}
+footer .social-menu li {
+    padding: 0;
+    margin: 0;
+    margin-left: -4px;
+}
+footer .social-menu li a {
+    display: block;
+    height: 57px;
+    width: 57px;
+}
+footer .social-menu li.share-text {
+    /*margin-right: 10px;*/
+    margin-right: 30px;
+}
+footer .social-menu li.share-text,
+footer .social-menu ul.footer-right li {
+    font-family: 'SageProximaBold', ProximaNova-Bold, sans-serif;
+    color: #555;
+    text-transform: uppercase;
+    font-size: 0.7em;
+}
+footer .social-menu ul.footer-right li a {
+    color: #555;
+    text-transform: uppercase;
+}
+footer .social-menu ul.footer-right li a:hover,
+footer .social-menu ul.footer-right li a:active {
+    color: #222;
+    background: none;
+}
+footer .social-menu li.share-fb-like {
+    margin-right: 30px;
+}
+footer .social-menu li.share-fb a {
+    background-image: url(../img/icons/fb_inactive_57x57.png);
+}
+footer .social-menu li.share-fb a:hover {
+    background-image: url(../img/icons/fb_active_57x57.png);
+}
+footer .social-menu li.share-tw a {
+    background-image: url(../img/icons/tw_inactive_57x57.png);
+}
+footer .social-menu li.share-tw a:hover {
+    background-image: url(../img/icons/tw_active_57x57.png);
+}
+footer .social-menu li.share-ig a {
+    background-image: url(../img/icons/ig_inactive_57x57.png);
+}
+footer .social-menu li.share-ig a:hover {
+    background-image: url(../img/icons/ig_active_57x57.png);
+}
+footer .social-menu li.share-pn a {
+    background-image: url(../img/icons/pn_inactive_57x57.png);
+}
+footer .social-menu li.share-pn a:hover {
+    background-image: url(../img/icons/pn_active_57x57.png);
+}
+footer .social-menu li.share-yt a {
+    background-image: url(../img/icons/yt_inactive_57x57.png);
+}
+footer .social-menu li.share-yt a:hover {
+    background-image: url(../img/icons/yt_active_57x57.png);
+}
+/* END FOOTER */
+
+/* START AGE VERIFY */
+#ageVerification {
+    background: rgba(0,0,0,.7);
+}
+#ageVerification .modal-dialog {
+    width: 600px;
+    margin: 200px auto;
+    font-family: 'SageProximaLight', ProximaNova-Light, sans-serif;
+}
+#ageVerification .modal-dialog h1 {
+    font-size: 1.5em;
+    font-family: 'SageProximaLight', ProximaNova-Light, sans-serif;
+}
+#ageVerification .modal-content {
+    color: #fff;
+    background: none;
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+#ageVerification .buttons {
+    margin-top: 2em;
+}
+#ageVerification .buttons button {
+    border: 1px solid;
+    background: #ddd;
+    padding: 0.8em 2em;
+}
+#ageVerification .buttons button#age-no {
+    color: #333;
+}
+#ageVerification .buttons button#age-no:hover {
+    background-color: #ccc;
+}
+#ageVerification .buttons button#age-yes {
+    margin-left: 1em;
+    background-color: #f62f58;
+    border-color: #f65475;
+}
+#ageVerification .buttons button#age-yes:hover {
+    background-color: #e0365c;
+}
+/* END AGE VERIFY */
+
+/* Global Styles */
+
+html {
+    width: 100%;
+    height: 100%;
+}
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    /*font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;*/
+}
+
+section {
+    height: 100%;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+}
+
+/* Custom Button Styles */
+
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.btn-light {
+    border-radius: 0;
+    color: #333;
+    background-color: rgb(255,255,255);
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    color: #333;
+    background-color: rgba(255,255,255,0.8);
+}
+
+/* Custom Horizontal Rule */
+
+hr.small {
+    max-width: 100px;
+}
+
+/* Side Menu */
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    margin-right: -250px;
+    overflow-y: auto;
+    background: #222;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 55px;
+    font-size: 18px;
+    line-height: 55px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+#menu-toggle {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+#sidebar-wrapper.active {
+    right: 250px;
+    width: 250px;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.toggle {
+    margin: 5px 5px 0 0;
+}
+
+/* Header */
+
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/sage_crazy_beard_bg1_20150310.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.header.visible-xs {
+    background: url(../img/sage_crazy_beard_xs_bg_20150310.jpg) no-repeat center center scroll;
+    
+}
+
+/* About */
+
+.about {
+    padding: 50px 0;
+}
+
+/* START CONTACT */
+#contact {
+    background: url(../img/toronto_dark_bg.jpg) no-repeat center center;
+    color: #fff;
+    background-size: cover;
+    font-size: 1.2em;
+}
+#contact p {
+    line-height: 1.2em;
+    letter-spacing: 2px;
+}
+#contact a {
+    color: #f62f58;
+}
+#contact a:hover {
+    color: #f65475;
+    text-decoration: none;
+}
+#contact hr {
+    opacity: 0.4;
+}
+.contact p {
+    line-height: 1.2em;
+}
+
+/* END CONTACT */
+
+/* START INSTAGRAM */
+#instagram {
+    background: url(../img/bar_shot_bg.jpg) no-repeat center center;
+    color: #fff;
+    background-size: cover;
+    font-size: 1.2em;
+    min-height: 100%;
+}
+.instagram {
+
+}
+.grams {
+
+}
+.gram-img {
+    border: 3px solid #fff;
+    margin-bottom: 1em;
+}
+/* END INSTAGRAM */
+
+/* START FLAVOURS */
+#flavours {
+    background: url(../img/cranberry_grad_bg.jpg) no-repeat center center;
+    color: #fff;
+    background-size: cover;
+}
+#flavours  h2 {
+    font-weight: bold;
+}
+#flavours ul {
+
+}
+#flavours li {
+    font-size: 2em;
+}
+/* END FLAVOURS */
+
+/* START FOUNDERS */
+#founders {
+    font-family: 'SageProximaLight', ProximaNova-Light, sans-serif;
+    color: #fff;
+    background: url(../img/team_bg.jpg) no-repeat center center;
+    letter-spacing: 2px;
+    background-size: cover;
+}
+.founder {
+
+}
+.founder h2 {
+
+}
+.founder h3 {
+    font-weight: bold;
+}
+.founder p {
+    font-size: 1.2em;
+}
+
+/* END FOUNDERS */
+/* START FANCY BUTTON */
+a.btn-fancy {
+    background-color: #222a33;
+    background-color: #010102;
+    background-image: -moz-linear-gradient(top, #222a33, #010102);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#222a33), to(#010102));
+    background-image: -webkit-linear-gradient(top, #222a33, #010102);
+    background-image: -o-linear-gradient(top, #222a33, #010102);
+    background-image: linear-gradient(to bottom, #222a33, #010102);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff006599', GradientType=0);
+
+    border-radius: 0px;
+    font-family: 'SageProxima', ProximaNovaCond-Semibold, sans-serif;
+    color: #fff;
+    padding: 15px 20px;
+    border: none;
+    font-size: 1em;
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 0px 1px 3px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 0px 1px 3px 0px rgba(50, 50, 50, 0.75);
+}
+a.btn-fancy:hover {
+    background-color: #020203;
+    color: #fff;
+    text-decoration: none;
+}
+a.btn-fancy:hover, a.btn-fancy:active {
+    background-color: #010102;
+    background-color: #222a33;
+    background-image: -moz-linear-gradient(top, #010102, #222a33);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#010102), to(#222a33));
+    background-image: -webkit-linear-gradient(top, #010102, #222a33);
+    background-image: -o-linear-gradient(top, #010102, #222a33);
+    background-image: linear-gradient(to bottom, #010102, #222a33);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff006599', GradientType=0);
+}
+/* END FANCY BUTTON */
+
+/* Services */
+
+
+.services {
+    padding: 50px 0;
+}
+
+.service-item {
+    margin-bottom: 30px;
+}
+
+/* Callout */
+
+.callout {
+    display: table;
+    width: 100%;
+    height: 400px;
+    color: #fff;
+    background: url(../img/callout.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* Portfolio */
+
+.portfolio {
+    padding: 50px 0;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.img-portfolio {
+    margin: 0 auto;
+}
+
+.img-portfolio:hover {
+    opacity: 0.8;
+}
+
+/* Call to Action */
+
+.call-to-action {
+    padding: 50px 0;
+}
+
+.call-to-action .btn {
+    margin: 10px;
+}
+
+/* Map */
+
+.map {
+    height: 500px;
+}
+
+@media(max-width:768px) {
+    .map {
+        height: 75%;
+    }
+}
+
+/* Footer */
+/*
+footer {
+    padding: 100px 0;
+}
+*/
