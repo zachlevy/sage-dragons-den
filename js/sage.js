@@ -6,22 +6,20 @@
 jQuery(document).ready(function($){
   checkCookie();
   console.log('instagramming');
-  var instagramming = setTimeout(function(){
-    $('.instagram').on('willLoadInstagram', function(event, options) {
-      //console.log(options);
-    });
-    $('.instagram').on('didLoadInstagram', function(event, response) {
-      //console.log(response);
-      //console.log(cleanGrams(response));
-      renderGrams(cleanGrams(response));
-    });
-    $('.instagram').instagram({
-      clientId: 'adceaa299bc64ec485ea296b51c6302a',
-      accessToken: '278615182.adceaa2.0d6f47831ca842769b292fd6737d9dd0',
-      userId: 961352253
-    });
-    getTweets();
-  },5000);
+  $('.instagram').on('willLoadInstagram', function(event, options) {
+    //console.log(options);
+  });
+  $('.instagram').on('didLoadInstagram', function(event, response) {
+    //console.log(response);
+    //console.log(cleanGrams(response));
+    renderGrams(cleanGrams(response));
+  });
+  $('.instagram').instagram({
+    clientId: 'adceaa299bc64ec485ea296b51c6302a',
+    accessToken: '278615182.adceaa2.0d6f47831ca842769b292fd6737d9dd0',
+    userId: 961352253
+  });
+  getTweets();
 });
 
 // from the internet
