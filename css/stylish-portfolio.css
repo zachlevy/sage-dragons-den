@@ -34,17 +34,20 @@ body {
 }
 .sage-header {
     color: #000;
-    text-shadow: 1px 2px 0px rgba(255,255,255,0.5);
     text-align: right;
 }
 .sage-header hr {
     border: 1px solid #000;
 }
+.sage-header h2 {
+    /* color: #ec3b63; */
+    /* text-shadow: 1px 1px 0px rgba(0,0,0,0.5); */
+}
 .sage-header h1 {
     font-size: 3em;
 }
 .crazy-beard-header {
-    text-shadow: 1px 2px 0px rgba(0,0,0,0.5);
+    /* text-shadow: 1px 2px 0px rgba(0,0,0,0.5); */
     color: #fff;
     text-align: left;
 }
@@ -54,6 +57,32 @@ body {
 .crazy-beard-header p {
     
 }
+#crazy-beard-header-mobile {
+    background: url(../img/crazy_beard_bg_20150310.jpg) no-repeat center center scroll;
+}
+#sage-header-mobile {
+    background: url(../img/sage_bg_20150310.jpg) no-repeat center center scroll;
+}
+.sage-header.header-mobile {
+
+}
+.crazy-beard-header.header-mobile {
+    color: #fff;
+    text-shadow: 1px 2px 0px rgba(0,0,0,0.5);
+    background-color:rgba(0, 0, 0, 0.5);
+    padding-bottom: 1em;
+}
+.sage-header.header-mobile h2,
+.sage-header.header-mobile h3 {
+    /* background-color:rgba(255, 255, 255, 0.5); */
+    /* padding: 0.5em 0; */
+}
+.crazy-beard-header.header-mobile h2,
+.crazy-beard-header.header-mobile h3
+ {
+    /* background-color:rgba(0, 0, 0, 0.5); */
+    /* padding: 0.5em 0; */
+ }
 /* END HEADER */
 
 /* START FOOTER */
@@ -391,14 +420,13 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/sage_crazy_beard_bg1_20150310.jpg) no-repeat center center scroll;
+    background: url(../img/sage_crazy_beard_bg_20150310.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
 .header.visible-xs {
-    background: url(../img/sage_crazy_beard_xs_bg_20150310.jpg) no-repeat center center scroll;
     
 }
 
