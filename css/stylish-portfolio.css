@@ -165,7 +165,15 @@ footer .social-menu li.share-yt a:hover {
 }
 /* END FOOTER */
 
+
 /* START AGE VERIFY */
+.fb-like-wrap {
+    background: #f62f58;
+    padding: 1em;
+}
+.fb-like-wrap h3 {
+    margin-top: 0;
+}
 #ageVerification {
     background: rgba(0,0,0,.7);
 }
@@ -356,6 +364,22 @@ hr.small {
     transition: all 0.4s ease 0s;
 }
 
+/* START SIDE MENU */
+#sidebar-wrapper {
+    background-color: #15181b;
+    border-left: 1px solid #343c43;
+    color: #5a5b5d;    
+}
+#sidebar-wrapper li.sidebar-home a {
+    padding-top: 2em;
+    color: #ec3b63;
+}
+#sidebar-wrapper li {
+    font-size: 2em;
+}
+#sidebar-wrapper
+/* END SIDE MENU */
+
 .toggle {
     margin: 5px 5px 0 0;
 }
@@ -408,7 +432,16 @@ hr.small {
 .contact p {
     line-height: 1.2em;
 }
-
+.contact span.twitter-text {
+    font-size: 0.8em;
+    display: block;
+    margin-bottom: 1em; 
+    line-height: 1.2;
+}
+.contact span.twitter-ago {
+    display: block;
+    font-size: 0.8em;
+}
 /* END CONTACT */
 
 /* START INSTAGRAM */

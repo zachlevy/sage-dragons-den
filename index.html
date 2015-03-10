@@ -53,7 +53,10 @@
   <div class="modal fade" id="ageVerification" tabindex="-1" role="dialog" data-backdrop="static" data-keyboard="false" aria-labelledby="ageVerificationModal" aria-hidden="true" style="display: none;">
     <div class="modal-dialog">
     <div class="modal-content col-sm-12 col-xs-7">
-      <div class="fb-like" data-href="https://facebook.com/sagemixology" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
+      <div class="fb-like-wrap">
+        <h3>Like us on Facebook to find out what happened after Dragon's Den</h3>
+        <div class="fb-like" data-href="https://facebook.com/sagemixology" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
+      </div>
       <h1>Are you of legal drinking age?</h1>
       <div class="buttons">
         <button id="age-no" type="button" class="btn btn-default">No</button><button id="age-yes" type="button" class="btn btn-primary" onclick="ageVerified();" data-dismiss="modal">Yes</button>
@@ -69,19 +72,19 @@
       <li class="sidebar-brand">
         <a href="#top"></a>
       </li>
-      <li>
+      <li class="sidebar-home">
         <a href="#top">Home</a>
       </li>
-      <li>
+      <li class="sidebar-flavours">
         <a href="#flavours">Flavours</a>
       </li>
-      <li>
+      <li class="sidebar-team">
         <a href="#founders">Team</a>
       </li>
-      <li>
+      <li class="sidebar-contact">
         <a href="#contact">Contact</a>
       </li>
-      <li>
+      <li class="sidebar-instagram">
         <a href="#instagram">Instagram</a>
       </li>
     </ul>
@@ -202,7 +205,7 @@
               </p>
               <hr class="contact-line">
               <div id="sage-tweet">
-                <span class="twitter-text">RT <a href="http://twitter.com/Dal_Alumni" target="_blank">@Dal_Alumni</a>: Catch #DalAlumni of <a href="http://twitter.com/SageMixology" target="_blank">@SageMixology</a> on Dragon's Den, this Wedn (Mar 11)! <a href="http://t.co/dr28cXe8qK" target="_blank">ow.ly/K5ZHh</a></span><span class="twitter-ago">18 hours ago - <a href="http://twitter.com/SageMixology" target="_blank">Sage Mixology</a></span>
+                
               </div>
             </div>
           </div>
@@ -267,7 +270,8 @@
 
   <!-- Bootstrap Core JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-
+  <script src="js/codebird.js"></script>
+  <script src="js/sha1.js"></script>
   <script src="js/sage.js"></script>
   <script src="js/instagram.min.js"></script>
 
