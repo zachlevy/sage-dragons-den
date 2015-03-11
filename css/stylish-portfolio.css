@@ -32,6 +32,19 @@ body {
     font-family: 'SageProxima', ProximaNovaCond-Semibold, sans-serif;
     letter-spacing: 3px;
 }
+.sage-header h2,
+.crazy-beard-header h2 {
+    font-size: 28px;
+}
+.sage-header h3,
+.crazy-beard-header h3 {
+    margin-top: 0.5em;
+    font-size: 19px;
+}
+.sage-header hr ,
+.crazy-beard-header hr {
+    margin: 0.1em 0;
+}
 .sage-header {
     color: #000;
     text-align: right;
@@ -61,7 +74,7 @@ body {
     background: url(../img/crazy_beard_bg_20150310.jpg) no-repeat center center scroll;
 }
 #sage-header-mobile {
-    background: url(../img/sage_bg_20150310.jpg) no-repeat center center scroll;
+    background: url(../img/sage_bg_20150311.jpg) no-repeat center center scroll;
 }
 .sage-header.header-mobile {
     background-color:rgba(255, 255, 255, 0.5);
@@ -428,7 +441,7 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/sage_crazy_beard_bg2_20150310.jpg) no-repeat center center scroll;
+    background: url(../img/sage_crazy_beard_bg5_20150311.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -513,22 +526,62 @@ hr.small {
 }
 /* END INSTAGRAM */
 
-/* START FLAVOURS */
-#flavours {
-    /* background: url(../img/sage_infographic_bg_20150310.jpg) no-repeat center center #86001c; */
-    background: #86001c;
-    color: #fff;
+/* START BOTTLE */
+#bottle {
+    /* RED #86001c */
+    background: url(../img/sage_crazy_beard_bg3_20150310.jpg) no-repeat center center #fff;
+    /* background: #ddd; */
+    color: #333;
 }
-#flavours  h2 {
+#bottle  h2 {
     font-weight: bold;
 }
-#flavours ul {
+#bottle ul {
 
 }
-#flavours li {
+#bottle li {
     font-size: 2em;
 }
-/* END FLAVOURS */
+#bottle-mobile-1 {
+    /* RED #86001c */
+    background: url(../img/info_bottle_bg_mobile_20150310.jpg) no-repeat center center #fff;
+    background-size: cover;
+    /* background: #ddd; */
+    color: #333;
+}
+#bottle-mobile-2 {
+    /* RED #86001c */
+    background: url(../img/info_bottle_bg_mobile2_20150310.jpg) no-repeat center center #fff;
+    /* background: #ddd; */
+    background-size: cover;
+    color: #333;
+}
+/* END BOTTLE */
+
+/* START BARTENDER */
+#bartender {
+    /* RED #86001c */
+    background: url(../img/sage_crazy_beard_bg6_20150310.jpg) no-repeat center center #fff;
+    /* background-size: cover; */
+    color: #333;
+}
+
+@media (max-width: 767px) {
+    #bartender {
+        background: url(../img/pour_mobile_hacky.jpg) no-repeat center center #fff;
+    }
+}
+
+#bartender  h2 {
+    font-weight: bold;
+}
+#bartender ul {
+
+}
+#bartender li {
+    font-size: 2em;
+}
+/* END BARTENDER */
 
 /* START FOUNDERS */
 #founders {
@@ -536,7 +589,7 @@ hr.small {
     color: #fff;
     background: url(../img/team_bg.jpg) no-repeat center center;
     letter-spacing: 2px;
-    background-size: cover;
+    /* background-size: cover; */
 }
 @media (min-width: 768px) {
     #founders .founders-wrapper {
@@ -596,7 +649,10 @@ a.btn-fancy:hover, a.btn-fancy:active {
     background-image: linear-gradient(to bottom, #010102, #222a33);
     background-repeat: repeat-x;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff006599', GradientType=0);
+}a.btn-fancy:focus {
+    color: #eee;
 }
+
 /* END FANCY BUTTON */
 
 /* Services */
@@ -625,9 +681,10 @@ a.btn-fancy:hover, a.btn-fancy:active {
 }
 
 /* Portfolio */
-
-.portfolio {
-    padding: 50px 0;
+@media (min-width: 768px) {
+    .portfolio {
+        padding: 50px 0;
+    }
 }
 
 .portfolio-item {
