@@ -105,11 +105,12 @@ function cleanGrams (uncleanGrams) {
   }
   return cleanGrams;
 }
+
 function renderGrams (grams) {
   var gramsLimit = 4;
   var gram = ''
   for (i = 0; i < gramsLimit; i++) {
-    gram += '<div class="col-lg-3 col-xs-6"><a href="' + grams[i].source + '" target="_blank"><img class="gram-img img-responsive" src="' 
+    gram += '<div class="col-sm-3 col-xs-6"><a href="' + grams[i].source + '" target="_blank"><img class="gram-img img-responsive" src="' 
     + grams[i].photo + '" alt="' 
     + grams[i].text + '" /></a></div>';
   }
