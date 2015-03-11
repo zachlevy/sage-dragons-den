@@ -216,7 +216,7 @@ footer .social-menu li.share-yt a:hover {
 }
 #ageVerification .modal-dialog {
     width: 600px;
-    margin: 200px auto;
+    margin: 100px auto;
     font-family: 'SageProximaLight', ProximaNova-Light, sans-serif;
 }
 #ageVerification .modal-dialog h1 {
@@ -428,7 +428,7 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/sage_crazy_beard_bg_20150310.jpg) no-repeat center center scroll;
+    background: url(../img/sage_crazy_beard_bg2_20150310.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -515,9 +515,9 @@ hr.small {
 
 /* START FLAVOURS */
 #flavours {
-    background: url(../img/cranberry_grad_bg.jpg) no-repeat center center;
+    /* background: url(../img/sage_infographic_bg_20150310.jpg) no-repeat center center #86001c; */
+    background: #86001c;
     color: #fff;
-    background-size: cover;
 }
 #flavours  h2 {
     font-weight: bold;
