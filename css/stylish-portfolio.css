@@ -466,7 +466,7 @@ hr.small {
 }
 @media (min-width: 768px) {
     #contact .container {
-        padding-top: 17%;
+        padding-top: 8em;
     }
 }
 #contact p {
@@ -508,7 +508,7 @@ hr.small {
 }
 @media (min-width: 768px) {
     #instagram .container {
-        padding-top: 15%;
+        padding-top: 7em;
     }
 }
 #instagram h2 {
@@ -529,8 +529,10 @@ hr.small {
 /* START BOTTLE */
 #bottle {
     /* RED #86001c */
-    background: url(../img/sage_crazy_beard_bg3_20150310.jpg) no-repeat center center #fff;
+    background: url(../img/white_red_bg.jpg) repeat-y center center;
+    background: cover;
     /* background: #ddd; */
+    /* background: #86001c; */
     color: #333;
 }
 #bottle  h2 {
@@ -544,16 +546,16 @@ hr.small {
 }
 #bottle-mobile-1 {
     /* RED #86001c */
-    background: url(../img/info_bottle_bg_mobile_20150310.jpg) no-repeat center center #fff;
-    background-size: cover;
-    /* background: #ddd; */
+    /* background: url(../img/info_bottle_bg_mobile_20150310.jpg) no-repeat center center #fff; */
+    /* background-size: cover; */
+    background: #86001c;
     color: #333;
 }
 #bottle-mobile-2 {
     /* RED #86001c */
-    background: url(../img/info_bottle_bg_mobile2_20150310.jpg) no-repeat center center #fff;
-    /* background: #ddd; */
-    background-size: cover;
+    /* background: url(../img/info_bottle_bg_mobile2_20150310.jpg) no-repeat center center #fff; */
+    background: #ddd;
+    /* background-size: cover; */
     color: #333;
 }
 /* END BOTTLE */
@@ -593,7 +595,7 @@ hr.small {
 }
 @media (min-width: 768px) {
     #founders .founders-wrapper {
-        padding-top: 20%;
+        padding-top: 8em;
     }
 }
 
