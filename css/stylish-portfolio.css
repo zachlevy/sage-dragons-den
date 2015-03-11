@@ -529,9 +529,9 @@ hr.small {
 /* START BOTTLE */
 #bottle {
     /* RED #86001c */
-    background: url(../img/white_red_bg.jpg) repeat-y center center;
-    background: cover;
-    /* background: #ddd; */
+    /* background: url(../img/white_red_bg.jpg) repeat-y center center; */
+    /* background: cover; */
+    background: #fff;
     /* background: #86001c; */
     color: #333;
 }
@@ -563,7 +563,7 @@ hr.small {
 /* START BARTENDER */
 #bartender {
     /* RED #86001c */
-    background: url(../img/sage_crazy_beard_bg6_20150310.jpg) no-repeat center center #fff;
+    /* background: url(../img/sage_crazy_beard_bg6_20150310.jpg) no-repeat center center #fff; */
     /* background-size: cover; */
     color: #333;
 }
@@ -589,7 +589,7 @@ hr.small {
 #founders {
     font-family: 'SageProximaLight', ProximaNova-Light, sans-serif;
     color: #fff;
-    background: url(../img/team_bg.jpg) no-repeat center center;
+    background: url(../img/team_bg.jpg) no-repeat top center;
     letter-spacing: 2px;
     /* background-size: cover; */
 }
